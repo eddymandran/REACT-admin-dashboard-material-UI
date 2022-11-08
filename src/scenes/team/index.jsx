@@ -12,7 +12,7 @@ const Team = () => {
     const colors = tokens(theme.palette.mode);
 
     const columns = [
-        {field: "id", headerName: "ID"},
+        {field: "id", headerName: "ID", flex: 0.5},
         {field: "name", headerName: "Name", flex: 1, cellClassName: "name-column--cell"},
         {
             field: "age",
